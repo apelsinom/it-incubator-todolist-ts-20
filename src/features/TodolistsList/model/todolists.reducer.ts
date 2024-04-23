@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RequestStatusType } from "app/app.reducer";
-import { todolistsApi, TodolistType, UpdateTodolistTitleArgType } from "features/TodolistsList/todolists.api";
+import { todolistsApi, TodolistType, UpdateTodolistTitleArgType } from "features/TodolistsList/api/todolistsApi";
 import { createAppAsyncThunk, handleServerAppError, thunkTryCatch } from "common/utils";
 import { ResultCode } from "common/enums";
 import { clearTasksAndTodolists } from "common/actions";
