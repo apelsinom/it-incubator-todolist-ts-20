@@ -1,5 +1,5 @@
 import { createSlice, isFulfilled, PayloadAction } from "@reduxjs/toolkit";
-import { appActions } from "app/appSlice";
+import { appActions } from "app/model/appSlice";
 import { authAPI, LoginParamsType } from "features/auth/api/auth.api";
 import { clearTasksAndTodolists } from "common/actions";
 import { createAppAsyncThunk } from "common/utils";

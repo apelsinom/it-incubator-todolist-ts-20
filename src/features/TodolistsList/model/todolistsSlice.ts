@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { RequestStatusType } from "app/appSlice";
+import { RequestStatusType } from "app/model/appSlice";
 import { todolistsApi } from "features/TodolistsList/api/todolists/todolistsApi";
 import { createAppAsyncThunk } from "common/utils";
 import { ResultCode } from "common/enums";

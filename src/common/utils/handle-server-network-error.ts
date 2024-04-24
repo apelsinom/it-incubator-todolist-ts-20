@@ -1,5 +1,5 @@
 import axios from "axios";
-import { appActions } from "app/appSlice";
+import { appActions } from "app/model/appSlice";
 import { AppDispatch } from "app/store";
 
 /**

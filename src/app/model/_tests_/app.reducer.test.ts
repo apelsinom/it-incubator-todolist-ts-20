@@ -1,4 +1,4 @@
-import { appActions, AppInitialStateType, appSlice } from "app/appSlice";
+import { appActions, AppInitialStateType, appSlice } from "app/model/appSlice";
 
 let startState: AppInitialStateType;
 
