@@ -19,7 +19,7 @@ import { ErrorSnackbar } from "common/components";
 import { useActions } from "common/hooks";
 import { selectIsLoggedIn } from "features/auth/model/auth.selectors";
 import { selectAppStatus, selectIsInitialized } from "app/app.selectors";
-import { authThunks } from "features/auth/model/auth.slice";
+import { authThunks } from "features/auth/model/authSlice";
 
 function App() {
   const status = useSelector(selectAppStatus);
